@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+  <button onclick="berubah()">ubah</button>
+  <button onclick="berubah2()">ubah</button>
+  <p onmouseenter="berubah()"onmouseleave="berubah2()">perubahan warna</p> 
+  <script>
+    body = document.getElementById("body")
+    function berubah(){
+        body.style.backgroundColor="pink"
+        
+    }
+    function berubah2(){
+        body.style.backgroundColor="lightblue"
+    }
+    </script>
+
+<input type"text" id="nama" placeholder="masukan nama">
+<button onclick="tampil()">tampilkan</button>
+
+<p id="hasil"></p>
+
+<script>
+    function tampil(){
+        let nama = document.getElementById("nama").value;
+        document.getElementById("hasil").innerHTML = "nama: " + nama;
+    }
+</script>
+</body>
+</html>
