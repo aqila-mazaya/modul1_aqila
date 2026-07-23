@@ -1,7 +1,7 @@
-let nilai = 60;
+let nilai = 88;
  
 if (nilai >= 75) {
     console.log("Lulus");
 } else {
-    console.log("sorry ga lulus");   // lengkapi
+    console.log("sorry gaks lulus");  
 }

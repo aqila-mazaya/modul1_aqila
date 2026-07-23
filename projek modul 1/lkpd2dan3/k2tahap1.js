@@ -6,5 +6,5 @@ class Mahasiswa {
 }
  
 const mhs = new Mahasiswa();
-mhs.nama = "Budi";
+mhs.nama = "aqil";
 mhs.belajar();

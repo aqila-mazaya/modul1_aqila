@@ -1,5 +1,5 @@
 function salam() {
-    console.log("haii");
+    console.log("hai oll");
 }
  
 salam();
